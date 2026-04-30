@@ -1,0 +1,274 @@
+{
+  "route": {
+    "id": "chur-tirano",
+    "title": "Chur → Tirano",
+    "operator": "RhB",
+    "appTitle": "TrackStories CH",
+    "startBadge": "🚆 Chur → Tirano",
+    "welcomeTitle": "Willkommen bei TrackStories CH",
+    "welcomeText": "Schön, bist du dabei. Diese Reise macht die RhB-Strecke Chur–Tirano interaktiv: Hör zu, schau aus dem Fenster, fotografiere besondere Momente und löse unterwegs kleine Quizfragen.",
+    "nextTrigger": "Landwasser · in 2.1 km",
+    "mapLabels": {
+      "start": "Chur Bahnhof",
+      "middle": "Bernina",
+      "end": "Tirano Stazione"
+    },
+    "positions": {
+      "intro": "Intro läuft",
+      "moving": "Unterwegs ins Albulatal",
+      "ready": "Kurz vor dem Landwasserviadukt",
+      "near": "Nähe Landwasserviadukt"
+    },
+    "challengeTitle": "Nächste Challenge",
+    "challengeWaitingText": "Die Reise läuft. In etwa 20 Sekunden erscheint automatisch die nächste Foto-Challenge.",
+    "challengeAudioWaitingText": "Die Foto-Challenge wird freigeschaltet, sobald das Sender-Audio fertig ist und der Zug kurz vor dem Landwasserviadukt ist.",
+    "liveMap": {
+      "enabled": true,
+      "provider": "leaflet",
+      "tileUrl": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "&copy; OpenStreetMap contributors",
+      "animationDurationMs": 120000,
+      "startStation": {
+        "name": "Chur Bahnhof",
+        "lat": 46.8531,
+        "lng": 9.5297
+      },
+      "endStation": {
+        "name": "Tirano Stazione",
+        "lat": 46.21658,
+        "lng": 10.16842
+      },
+      "route": [
+        [
+          46.8531,
+          9.5297
+        ],
+        [
+          46.6986,
+          9.4404
+        ],
+        [
+          46.6602,
+          9.5789
+        ],
+        [
+          46.6752,
+          9.6842
+        ],
+        [
+          46.6291,
+          9.7468
+        ],
+        [
+          46.5352,
+          9.8723
+        ],
+        [
+          46.4912,
+          9.8962
+        ],
+        [
+          46.4081,
+          10.0193
+        ],
+        [
+          46.3244,
+          10.0586
+        ],
+        [
+          46.2594,
+          10.1266
+        ],
+        [
+          46.21658,
+          10.16842
+        ]
+      ]
+    },
+    "stationSelector": {
+      "enabled": true,
+      "title": "Von welchem Bahnhof fährst du los?",
+      "text": "Wähle deinen Startbahnhof auf der Karte. Danach startet automatisch die passende TrackStories-Reise.",
+      "stations": [
+        {
+          "id": "chur-tirano",
+          "label": "Chur Bahnhof",
+          "lat": 46.8531,
+          "lng": 9.5297,
+          "routeKey": "chur-tirano",
+          "routeTitle": "Chur → Tirano"
+        }
+      ]
+    },
+    "introAudioText": "",
+    "introSpeechPrefix": ""
+  },
+  "storageKey": "trackstories_rhb_startwahl_v1",
+  "profile": {
+    "name": "Pascal",
+    "level": "Bernina-Entdecker · Level 7",
+    "dailyGoal": "Noch 2 gelöste Quizfragen bis zum Titel „Bernina-Entdecker:in“. Kombiniere Foto-Challenge und Quiz, um direkt in der Rangliste aufzusteigen."
+  },
+  "rewards": [
+    {
+      "id": "myths",
+      "title": "Landwasser-Drache",
+      "icon": "🏆",
+      "description": "Dein Foto wurde mit einem RhB-Sagen-Filter veredelt und im Reisealbum gespeichert."
+    },
+    {
+      "id": "commuter",
+      "title": "Pendlerblick",
+      "icon": "☕",
+      "description": "Sammelobjekt"
+    }
+  ],
+  "coupons": [
+    {
+      "icon": "☕",
+      "title": "10% Bernina-Kaffee",
+      "description": "Café in Poschiavo · freigeschaltet durch Bernina-Quiz",
+      "tag": "aktiv"
+    },
+    {
+      "icon": "🥐",
+      "title": "Pendler-Gipfeli",
+      "description": "Partner-Bäckerei am RhB-Bahnhof · einmalig einlösbar",
+      "tag": "aktiv"
+    },
+    {
+      "icon": "🏛️",
+      "title": "Museumseintritt",
+      "description": "Bonus nach 5 Kultur-Challenges",
+      "tag": "neu"
+    }
+  ],
+  "channels": [
+    {
+      "id": "myths",
+      "name": "Sagen",
+      "icon": "✨",
+      "silhouette": "dragon",
+      "g1": "#6d28d9",
+      "g2": "#4f46e5",
+      "desc": "Sagen aus Tälern, Pässen und Bergdörfern.",
+      "now": "Der Drache am Landwasser",
+      "audioTitle": "Das Viadukt flüstert",
+      "audioText": "Gleich öffnet sich der Blick ins Albulatal. Man erzählt sich, dass unter den Felsen beim Landwasser ein alter Bergdrache schlafe. Wenn der rote RhB-Zug über den Steinbogen fährt, klingt es manchmal, als würde der Fels antworten. Schau nach rechts: Das Viadukt taucht wie ein Tor in den Bergen auf.",
+      "photoTask": "Fange den Bogen des Landwasserviadukts oder eine dramatische Felswand im Fensterrahmen ein.",
+      "reviewTitle": "Sagen-Filter: Felsnebel",
+      "quiz": {
+        "question": "Welches Bauwerk ist hier das grosse Wahrzeichen der RhB?",
+        "answers": [
+          "Landwasserviadukt",
+          "Kreisviadukt",
+          "Leuchtturm"
+        ],
+        "correct": "Landwasserviadukt",
+        "fact": "Richtig: Das Landwasserviadukt ist eines der bekanntesten Wahrzeichen der Rhätischen Bahn. Es führt den Zug direkt aus der Felswand über das Tal.",
+        "id": "myths",
+        "rewardId": "myths"
+      }
+    },
+    {
+      "id": "business",
+      "name": "Wirtschaft",
+      "icon": "🏪",
+      "silhouette": "factory",
+      "g1": "#047857",
+      "g2": "#14b8a6",
+      "desc": "Dörfer, Handwerk, Hotels, Bahn und lokale Gutscheine.",
+      "now": "Vom Kurort zum Grenzmarkt",
+      "audioTitle": "Arbeit am Alpenpass",
+      "audioText": "Diese Strecke verbindet nicht nur Landschaften, sondern auch Wirtschaftsräume: Chur, das Albulatal, das Engadin, Poschiavo und Tirano. Aus dem Zug siehst du Hotels, Werkstätten, Bahnhofsbauten, Landwirtschaft und kleine Läden. Die RhB ist hier seit über hundert Jahren mehr als Transport: Sie ist Lebensader.",
+      "photoTask": "Fotografiere einen Bahnhof, ein Hotel, ein Ladenschild oder ein lokales Gebäude an der Strecke.",
+      "reviewTitle": "Wirtschafts-Filter: warmer Südblick",
+      "quiz": {
+        "question": "Was verbindet diese Bahnstrecke besonders stark?",
+        "answers": [
+          "Dörfer und Täler",
+          "Inseln und Häfen",
+          "Wüstenstädte"
+        ],
+        "correct": "Dörfer und Täler",
+        "fact": "Richtig: Die RhB verbindet Dörfer, Täler und Regionen über hohe Alpenpässe hinweg – bis nach Tirano in Italien.",
+        "id": "business"
+      }
+    },
+    {
+      "id": "nature",
+      "name": "Natur",
+      "icon": "🏔️",
+      "silhouette": "mountains",
+      "g1": "#0369a1",
+      "g2": "#06b6d4",
+      "desc": "Gletscher, Berge, Täler, Viadukte und Wetter.",
+      "now": "Gletscher statt See",
+      "audioTitle": "Vom Rhein zu Palmen",
+      "audioText": "Auf dieser Fahrt verändert sich die Landschaft immer wieder: von Chur und dem Rheintal ins Albulatal, hinauf zur Bernina mit Gletschern und Bergseen, dann hinunter ins Puschlav und weiter nach Tirano. Achte auf den Moment, in dem die Alpenwelt plötzlich südlicher wirkt.",
+      "photoTask": "Fotografiere Berge, Gletscher, Felsen oder den Wechsel von Hochgebirge zu Südtal.",
+      "reviewTitle": "Natur-Filter: Bernina-Panorama",
+      "quiz": {
+        "question": "Was prägt die Landschaft auf der Berninastrecke besonders?",
+        "answers": [
+          "Berge und Gletscher",
+          "Meer und Strand",
+          "Hochhäuser"
+        ],
+        "correct": "Berge und Gletscher",
+        "fact": "Richtig: Die Berninastrecke lebt vom Wechsel zwischen Hochgebirge, Gletschern, Tälern und südlicher Landschaft Richtung Tirano.",
+        "id": "nature"
+      }
+    },
+    {
+      "id": "commuter",
+      "name": "Pendler",
+      "icon": "☕",
+      "silhouette": "sign",
+      "g1": "#334155",
+      "g2": "#7c3aed",
+      "desc": "Kurze Challenges, Pendlerpunkte und Serien.",
+      "now": "Heute: RhB-Detailjagd",
+      "audioTitle": "Dein kurzer Streckenmoment",
+      "audioText": "Vielleicht kennst du die roten Züge schon gut. Heute zählt ein Detail: ein Stationsschild, ein Tunnelportal, ein Viaduktbogen oder eine Schneestange am Gleis. Wer genau hinschaut, sammelt Pendlerpunkte auf der Albula- und Berninalinie.",
+      "photoTask": "Fotografiere ein kleines RhB-Detail, das man beim normalen Reisen leicht übersieht.",
+      "reviewTitle": "Pendler-Filter: RhB-Morgenfenster",
+      "quiz": {
+        "question": "Welches Detail solltest du bewusst suchen?",
+        "answers": [
+          "Ein RhB-Schild",
+          "Eine Palme am Meer",
+          "Ein Hafenkran"
+        ],
+        "correct": "Ein RhB-Schild",
+        "fact": "Richtig: Beim Pendler-Sender geht es um kleine Details der Strecke – Schilder, Portale, Viadukte, Signale und Dinge, die man sonst übersieht.",
+        "id": "commuter",
+        "rewardId": "commuter"
+      }
+    }
+  ],
+  "onboarding": {
+    "enabled": true,
+    "steps": [
+      "seat",
+      "channel",
+      "ready"
+    ],
+    "seatQuestion": "Auf welcher Seite sitzt du?",
+    "channelQuestion": "Welchen Sender möchtest du hören?",
+    "readyTitle": "Bereit für die Reise",
+    "readyText": "Alles ist eingerichtet. Viel Spass mit dem Quiz und eine angenehme Reise."
+  },
+  "initialState": {
+    "tab": "journey",
+    "channelId": "myths",
+    "step": "start",
+    "xp": 0,
+    "vouchers": 0,
+    "album": [],
+    "photos": 0,
+    "km": 0,
+    "trips": 0,
+    "alltime": 0
+  }
+}

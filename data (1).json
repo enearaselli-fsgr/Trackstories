@@ -1,0 +1,88 @@
+{
+  "route": {
+    "id": "lecco-milano",
+    "title": "Lecco-Milano",
+    "operator": "Frecia Rossa",
+    "appTitle": "TrackStories CH",
+    "startBadge": "🚆 Lecco-Milano",
+    "welcomeTitle": "Willkommen bei TrackStories CH",
+    "welcomeText": "",
+    "introAudioText": "",
+    "introSpeechPrefix": "",
+    "nextTrigger": "",
+    "mapLabels": {
+      "start": "",
+      "middle": "",
+      "end": ""
+    },
+    "liveMap": {
+      "enabled": true,
+      "provider": "leaflet",
+      "tileUrl": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "&copy; OpenStreetMap contributors",
+      "animationDurationMs": 90000,
+      "startStation": {
+        "name": "Lecco",
+        "lat": 45.853364,
+        "lng": 9.396506
+      },
+      "endStation": {
+        "name": "",
+        "lat": 0,
+        "lng": 0
+      },
+      "route": []
+    },
+    "positions": {
+      "intro": "Intro läuft",
+      "moving": "Unterwegs",
+      "ready": "Challenge bereit",
+      "near": "Nähe Ziel"
+    },
+    "challengeTitle": "Nächste Challenge",
+    "challengeWaitingText": "",
+    "challengeAudioWaitingText": "",
+    "stationSelector": {
+      "enabled": true,
+      "title": "Von welchem Bahnhof fährst du los?",
+      "text": "Wähle deinen Startbahnhof auf der Karte. Danach startet automatisch die passende TrackStories-Reise.",
+      "stations": [
+        {
+          "id": "lecco-milano",
+          "label": "Lecco",
+          "lat": 45.853364,
+          "lng": 9.396506,
+          "routeKey": "lecco-milano",
+          "routeTitle": "Lecco-Milano"
+        }
+      ]
+    }
+  },
+  "storageKey": "trackstories_lecco-milano_1777534390765",
+  "initialState": {
+    "tab": "journey",
+    "channelId": "",
+    "step": "start",
+    "xp": 0,
+    "vouchers": 0,
+    "album": [],
+    "photos": 0,
+    "km": 0,
+    "trips": 0,
+    "alltime": 0
+  },
+  "channels": [],
+  "rewards": [],
+  "onboarding": {
+    "enabled": true,
+    "steps": [
+      "seat",
+      "channel",
+      "ready"
+    ],
+    "seatQuestion": "Auf welcher Seite sitzt du?",
+    "channelQuestion": "Welchen Sender möchtest du hören?",
+    "readyTitle": "Bereit für die Reise",
+    "readyText": "Alles ist eingerichtet. Viel Spass mit dem Quiz und eine angenehme Reise."
+  }
+}
