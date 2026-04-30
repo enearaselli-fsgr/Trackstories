@@ -1,0 +1,253 @@
+{
+  "route": {
+    "id": "st-gallen-luzern",
+    "title": "St. Gallen → Luzern",
+    "operatorLabel": "🚆 Voralpen-Express",
+    "badge": "Demo",
+    "introRoute": "🚆 St. Gallen → Luzern",
+    "introDescription": "Diese Reise macht den Voralpen-Express interaktiv: Hör zu, schau aus dem Fenster, fotografiere besondere Momente und löse unterwegs kleine Quizfragen.",
+    "introSpeechPrefix": "Willkommen auf der Strecke St. Gallen Luzern im Voralpen-Express. Chur.",
+    "nextTriggerLabel": "Rapperswil · in 2.1 km",
+    "waitingLabel": "Unterwegs zum Zürichsee",
+    "readyLabel": "Foto-Challenge bereit",
+    "mapLabels": [
+      "St. Gallen HB",
+      "Rapperswil",
+      "Luzern HB"
+    ],
+    "mapFeatureLabel": "Zürichsee",
+    "routeNote": "Die App richtet Karte, Kamera-Silhouette und Quizfragen auf deine Fensterseite aus.",
+    "liveMap": {
+      "enabled": true,
+      "provider": "leaflet",
+      "tileUrl": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "&copy; OpenStreetMap contributors",
+      "animationDurationMs": 90000,
+      "startStation": {
+        "name": "St. Gallen HB",
+        "lat": 47.42391,
+        "lng": 9.37037
+      },
+      "endStation": {
+        "name": "Luzern HB",
+        "lat": 47.05017,
+        "lng": 8.31017
+      },
+      "route": [
+        [
+          47.42391,
+          9.37037
+        ],
+        [
+          47.3869,
+          9.2792
+        ],
+        [
+          47.2996,
+          9.0877
+        ],
+        [
+          47.2249,
+          8.9814
+        ],
+        [
+          47.2256,
+          8.8171
+        ],
+        [
+          47.2031,
+          8.7784
+        ],
+        [
+          47.1897,
+          8.7334
+        ],
+        [
+          47.0491,
+          8.5493
+        ],
+        [
+          47.0853,
+          8.4427
+        ],
+        [
+          47.05017,
+          8.31017
+        ]
+      ]
+    },
+    "stationSelector": {
+      "enabled": true,
+      "title": "Von welchem Bahnhof fährst du los?",
+      "text": "Wähle deinen Startbahnhof auf der Karte. Danach startet automatisch die passende TrackStories-Reise.",
+      "stations": [
+        {
+          "id": "voralpen",
+          "label": "St. Gallen HB",
+          "lat": 47.42391,
+          "lng": 9.37037,
+          "routeKey": "voralpen",
+          "routeTitle": "St. Gallen → Luzern"
+        },
+        {
+          "id": "rhb",
+          "label": "Chur Bahnhof",
+          "lat": 46.8531,
+          "lng": 9.5297,
+          "routeKey": "rhb",
+          "routeTitle": "Chur → Tirano"
+        }
+      ]
+    },
+    "welcomeTitle": "Willkommen bei TrackStories",
+    "introAudioText": "Willkommen auf der Strecke St. Gallen Luzern im Voralpen-Express. Chur."
+  },
+  "storageKey": "trackstories_voralpen_startwahl_v1",
+  "initialState": {
+    "tab": "journey",
+    "channelId": "myths",
+    "step": "start",
+    "xp": 450,
+    "vouchers": 2,
+    "album": [
+      "Schlossgeist"
+    ],
+    "photos": 12,
+    "km": 86,
+    "trips": 4,
+    "alltime": 3840
+  },
+  "channels": [
+    {
+      "id": "myths",
+      "name": "Sagen",
+      "icon": "✨",
+      "silhouette": "dragon",
+      "g1": "#6d28d9",
+      "g2": "#4f46e5",
+      "desc": "Hörspielartige Mythen und lokale Legenden.",
+      "now": "Der Schatz im Seedamm",
+      "audioTitle": "Der Seedamm flüstert",
+      "audioText": "Hörst du das Wasser unter den Schienen? Man sagt, zwischen Rapperswil und Pfäffikon ruhe ein alter Schatz, bewacht von den Geistern des Sees. Schau nach rechts: Das Schloss taucht gleich über dem Wasser auf.",
+      "photoTask": "Fange Schloss Rapperswil im Fensterrahmen ein.",
+      "quiz": {
+        "question": "Welche Farbe hat die Boje vor dem Schloss?",
+        "answers": [
+          "Blau",
+          "Grün",
+          "Rot"
+        ],
+        "correct": "Rot",
+        "fact": "Richtig: Genau, die Boje ist rot. Sie markiert den Uferbereich und hilft Schiffen auch bei schlechter Sicht oder in der Nacht, sicher am Seeufer vorbeizufahren.",
+        "id": "myths",
+        "rewardId": "myths"
+      }
+    },
+    {
+      "id": "business",
+      "name": "Wirtschaft",
+      "icon": "🏪",
+      "silhouette": "factory",
+      "g1": "#047857",
+      "g2": "#14b8a6",
+      "desc": "Lokale Betriebe, Produzenten und Gutscheine.",
+      "now": "Vom Käse zum Kaffee",
+      "audioTitle": "Gewerbe am Gleis",
+      "audioText": "Links und rechts der Strecke liegen kleine Betriebe, die man aus dem Zug fast übersieht: Bäckereien, Käsereien, Werkstätten und Cafés. Diese Fahrt macht sie sichtbar.",
+      "photoTask": "Fotografiere ein Schild, einen Bahnhof oder ein lokales Gebäude.",
+      "quiz": {
+        "question": "Was hast du gerade am Bahnhof gesehen?",
+        "answers": [
+          "Ein Café-Schild",
+          "Ein Hafenkran",
+          "Eine Seilbahn"
+        ],
+        "correct": "Ein Café-Schild",
+        "fact": "Richtig: Genau, es war ein Café-Schild. Solche kleinen Hinweise zeigen, welche lokalen Orte direkt an der Strecke liegen – und können später als Gutschein- oder Besuchsimpuls dienen.",
+        "id": "business"
+      }
+    },
+    {
+      "id": "nature",
+      "name": "Natur",
+      "icon": "🏔️",
+      "silhouette": "mountains",
+      "g1": "#0369a1",
+      "g2": "#06b6d4",
+      "desc": "Berge, Seen, Viadukte, Moore und Wetter.",
+      "now": "See, Berge, Viadukte",
+      "audioTitle": "Die Landschaft liest mit",
+      "audioText": "Diese Strecke wechselt schnell zwischen Stadt, Hügelland, See und Alpenblick. Der Natur-Kanal erklärt, was du siehst – aber nur, wenn du auch wirklich aus dem Fenster schaust.",
+      "photoTask": "Fotografiere den Übergang von See zu Bergkulisse.",
+      "quiz": {
+        "question": "Was dominiert gerade die Landschaft?",
+        "answers": [
+          "See",
+          "Wüste",
+          "Hochhäuser"
+        ],
+        "correct": "See",
+        "fact": "Richtig: Genau, hier dominiert der See. Der Natur-Sender nutzt solche Blickwechsel – Wasser, Ufer, Hügel, Berge – damit Reisende die Landschaft bewusster wahrnehmen.",
+        "id": "nature",
+        "rewardId": "nature"
+      }
+    },
+    {
+      "id": "commuter",
+      "name": "Pendler",
+      "icon": "☕",
+      "silhouette": "sign",
+      "g1": "#334155",
+      "g2": "#7c3aed",
+      "desc": "Kurze Challenges, Pendlerpunkte und Serien.",
+      "now": "Heute: 3-Minuten-Challenge",
+      "audioTitle": "Dein kurzer Streckenmoment",
+      "audioText": "Du kennst diese Strecke vielleicht auswendig. Heute geht es um ein Detail: Beim nächsten Halt erscheint ein kleines Schild, das viele übersehen. Wer es entdeckt, sammelt Pendlerpunkte.",
+      "photoTask": "Fotografiere ein Detail, das du sonst jeden Tag übersiehst.",
+      "quiz": {
+        "question": "Welches Detail hast du bewusst gesucht?",
+        "answers": [
+          "Ein Schild",
+          "Eine Palme",
+          "Ein Leuchtturm"
+        ],
+        "correct": "Ein Schild",
+        "fact": "Richtig: Genau, du hast bewusst nach einem Schild gesucht. Der Pendler-Sender funktioniert über solche Alltagsdetails, die man sonst nach hundert Fahrten kaum noch beachtet.",
+        "id": "commuter",
+        "rewardId": "commuter"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "id": "myths",
+      "title": "Schlossgeist",
+      "icon": "🏰",
+      "description": "Erster Sammelstempel aus dem Sagenkanal."
+    },
+    {
+      "id": "nature",
+      "title": "Seeblick",
+      "icon": "🌊",
+      "description": "Für eine gelungene Foto-Challenge am Wasser."
+    },
+    {
+      "id": "commuter",
+      "title": "Pendlerblick",
+      "icon": "☕",
+      "description": "Für entdeckte Alltagsdetails entlang der Strecke."
+    }
+  ],
+  "onboarding": {
+    "enabled": true,
+    "steps": [
+      "seat",
+      "channel",
+      "ready"
+    ],
+    "seatQuestion": "Auf welcher Seite sitzt du?",
+    "channelQuestion": "Welchen Sender möchtest du hören?",
+    "readyTitle": "Bereit für die Reise",
+    "readyText": "Alles ist eingerichtet. Viel Spass mit dem Quiz und eine angenehme Reise."
+  }
+}
